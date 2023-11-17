@@ -85,10 +85,10 @@ if __name__ == '__main__':
 
 ```
 
-Running this app and navigating to `127.0.0.1:5555`, you should see the
+Running this app and navigating to `localhost:5555`, you should see the
 following:
 
-![Simple web page with the text "The host for this page is 127.0.0.1:5555"](https://curriculum-content.s3.amazonaws.com/python/flask-request-response-1.png)
+![Simple web page with the text "The host for this page is localhost:5555"](https://curriculum-content.s3.amazonaws.com/python/flask-request-response-1.png)
 
 This might seem a bit odd. While we did import `request`, we didn't assign it
 any attributes that would tell it about the activity on our server. It almost
@@ -388,9 +388,7 @@ This has been a brief introduction to requests and responses in Flask. These
 messages allow our application to communicate with a client through the server.
 Flask does most of the work for us when setting up contexts and URL maps, but
 parsing requests and generating responses effectively will allow you to do much
-more with Flask than you've seen so far. Now that we've discussed communication
-with the frontend, let's get started on communication with the backend through
-SQLAlchemy.
+more with Flask than you've seen so far.
 
 If you don't fully understand every concept yet, don't worry! Check below to
 make sure your code matches ours and look back at this lesson if you're having
@@ -444,5 +442,4 @@ if __name__ == '__main__':
 
 [moz_http]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 [moz_http_status]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
-
-## [response]: https://flask.palletsprojects.com/en/2.3.x/api/#response-objects
+[response]: https://flask.palletsprojects.com/en/2.3.x/api/#response-objects
